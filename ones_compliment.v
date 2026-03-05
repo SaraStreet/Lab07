@@ -7,7 +7,6 @@ module ones_compliment(
     wire [7:0] carry; //connection
     wire [3:0] sum; //addition variable 
 
-    // First ripple stage: A + B
     full_adder real_zero_inst(
         .A(A[0]),
         .B(B[0]),
@@ -74,3 +73,4 @@ module ones_compliment(
     );
 
 endmodule
+
